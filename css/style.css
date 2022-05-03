@@ -1,0 +1,114 @@
+/* Body configurations */
+
+body {
+    overflow: overlay;
+}
+
+body::after { 
+    background-color: #e0e0e0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+body::-webkit-scrollbar { 
+    width: 5px;
+}
+
+body::-webkit-scrollbar-track {
+    color: transparent;
+    border-radius: 2px;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, .2);
+    border-radius: 2px;
+}
+
+/* Web configurations */
+
+#header { 
+    width: 100vw;
+    height: 70vh;
+    background: linear-gradient(to right, #2E2C2C 60%, #951919 40%);
+    z-index: -1;
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pst, #header #foto img {
+    flex: 1;
+    height: 65vh;
+    margin: 0px;
+    position: relative;
+}
+
+#foto {
+    width: auto;
+    height: 65vh;
+    margin: 5vh 35vw 0 0;
+    padding: 0px;
+}
+
+#header .pst {
+    margin: 8% 0 0 15vw;
+    max-width: 40%;
+}
+
+.pst h3 {
+    font-weight: bold;
+    color: #951919;
+    font-size: 5.3vh;
+}
+
+.pst h5, .pst h6 {
+    color: rgb(221, 205, 205);
+}
+
+.pst h5 {
+    font-size: 3vh;
+}
+
+.pst h6 {
+    margin-bottom: -20px;
+    font-size: 2.5vh;
+}
+
+#about {
+    background-color: #3d3a3a;
+    height: auto;
+    min-height: 200px;
+    width: 100vw;
+    margin: 0;
+    padding: 2%;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    z-index: -1000;
+}
+
+#about .content h3, p {
+    color: rgb(221, 205, 205);
+}
+
+#about .foto, #about .content {
+    flex: 1;
+}
+
+#about .foto img {
+    height: 30vh;
+    margin: 5vh 0 0 25vw;
+    border: 5px solid #3d3a3a;
+}
+
+#about .recuadro {
+    width: 20vw;
+    height: 31vh;
+    border:  5px solid #951919;
+    position: absolute;
+    margin: 7.5vh 0 0 23.5vw;
+    z-index: -1;
+}

@@ -1,0 +1,63 @@
+{
+    "info": {
+        "f_name": "Leuris",
+        "s_name": "Joel",
+        "fl_name": "Morel",
+        "sl_name": "Nuñez",
+        "tecnologies": ["C# (POO)", "PHP", "JavaScript", "ASP.NET", "HTML", "CSS", "SQL Server", "MySQL", "JQuery"],
+        "contact": {
+            "linkedin": "https://www.linkedin.com/in/leuris-morel-6759a0191/", 
+            "cel": "(829) 470-0904",
+            "email": "leurismorel7@gmail.com"
+        },
+        "es": {
+            "position": "Programador Web Jr.",
+            "obj": "Interesado en aplicar mis conocimientos para mejorar y crear nuevos proyectos y de esa manera crecer tanto personal como profesionalmente.",
+            "skills": ["Resolución de problemas", "Dominio de lenguajes de desarrollo y programación web", "Administración y creación de bases de datos"],
+            "languages": {
+                "language": ["Inglés", "Español"], 
+                "level": ["Intermedio", "Nativo"]
+            },
+            "address": ["Calle 27", "#21", "Gualey", "Distrito Nacional", "Santo Domingo", "República Dominicana"],
+            "references": {
+                "name": ["Angi Hernandez", "Erick Piña Sánchez"],
+                "contact": ["(829) 589-8060", "(849) 406-8604"],
+                "relation": ["Pastora", "Jefe"],
+                "type": ["Personal", "Laboral"]
+            },
+            "preparation": {
+                "institute": ["Instituto Politécnico Parroquial Santa Ana (IPOPSA)", "Instituto Tecnológico de Las Américas (ITLA)"],
+                "time": ["2014-2018", "2018-Presente"],
+                "title": ["Bachiller Técnico en informática", "Técnico superior en Desarrollo de Software"]
+            },
+            "exp": {
+                "place": ["Caja de Ahorros para Obreros y Monte de Piedad"],
+                "time": ["2021-presente"],
+                "position": ["Soporte Técnico"]
+            }
+        },
+        "en": {
+            "position": "Jr. Web Developer",
+            "obj": "I'm interested in applying my knowledge to improve and to carry out new projects and this way grow both personally and professionally.",
+            "skills": ["Problems resolution", "Good knowledge of web development and programming languages", "Database construction and management"],
+            "languages": ["English (middle)", "Spanish (Native)"],
+            "address": ["27 street", "#21", "Gualey", "Distrito Nacional", "Santo Domingo", "Dominican Republic"],
+            "references": {
+                "name": ["Angi Hernandez", "Erick Piña Sánchez"],
+                "contact": ["(829) 589-8060", "(849) 406-8604"],
+                "relation": ["Shepherdess", "Boss"],
+                "type": ["Personal", "Work"]
+            },
+            "preparation": {
+                "institute": ["Instituto Politécnico Parroquial Santa Ana (IPOPSA)", "Instituto Tecnológico de Las Américas (ITLA)"],
+                "time": ["2014-2018", "2018-Present"],
+                "title": ["IT Technician", "Software Development Technician"]
+            },
+            "exp": {
+                "place": ["Caja de Ahorros para Obreros y Monte de Piedad"],
+                "time": ["2021-Present"],
+                "position": ["Technical support"]
+            }
+        }
+    }
+}
